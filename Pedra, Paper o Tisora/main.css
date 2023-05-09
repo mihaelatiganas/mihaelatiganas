@@ -1,0 +1,58 @@
+body {
+  background-color: #252525;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#game {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#battle {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player-choice, #computer-choice {
+  margin: 0 20px;
+}
+
+.option {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.option:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  margin: 20px 0;
+}
+
+.win {
+  color: #00ff00;
+}
+
+.loss {
+  color: #ff0000;
+}
+
+.tie {
+  color: #f1c40f;
+}
